@@ -1,0 +1,201 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: -webkit-linear-gradient(90deg, rgb(255, 250, 140), rgb(255, 255, 214));
+    background: linear-gradient(90deg, rgb(255, 250, 140), rgb(255, 255, 214));
+}
+header{
+    width: 100%;
+    height: 13%;
+    background: -webkit-radial-gradient(rgb(250, 208, 90), rgb(255, 244, 0));
+    background: radial-gradient(rgb(250, 208, 90), rgb(255, 244, 0));
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.contenedor_head{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.cont_img_logo{
+    width: max-content;
+}
+.img_logo{
+    width: 200px;
+    height: 70px;
+    margin-left: 50px;
+}
+.cont_menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.cont_barra_navegar{
+    width: 105px;
+    height: 40px;
+    margin-left: 17.5px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(255, 255, 35);
+    border-radius: 10px;
+}
+.cont_barra_navegar a{
+    text-decoration: none;
+    font-size: 17px;
+    color: red;
+}
+.cont_barra_navegar:hover {
+    background: rgb(255, 208, 0);
+}
+.cont_primera h1{
+    text-align: center;
+    color: red;
+    font-size: 50px;
+}
+.con_datos_cliente{
+    display: flex;
+    flex-wrap: wrap;
+}
+.cont_img_cliente{
+    width: 450px; 
+    background: -webkit-linear-gradient(90deg, rgb(244, 255, 0), rgb(231, 231, 82));
+    background: linear-gradient(90deg, rgb(244, 255, 0), rgb(231, 231, 82));
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    margin-left: 15px;
+}
+.img_cliente{
+    width: 430px;
+    border-radius: 20px;
+}
+.cont_dueño_sitio{
+    width: 500px;
+    margin-left: 15px;
+}
+.cont_dueño_sitio h3{
+    font-size: 30px;
+    color: red;
+}
+.cont_dueño_sitio p{
+    font-size: 20px;
+    text-align: justify;
+}
+.cont_que_banda{
+    display: flex;
+    margin-top: 15px;
+    flex-wrap: wrap;
+}
+.cont_img_logo_banda{
+    width: 450px;
+    border-radius: 20px;
+    background: -webkit-linear-gradient(90deg, rgb(244, 255, 0), rgb(231, 231, 82));
+    background: linear-gradient(90deg, rgb(244, 255, 0), rgb(231, 231, 82));
+    display: flex;
+    justify-content: center;
+    margin-left: 15px;
+}
+.img_logo_banda {
+    width: 430px;
+    border-radius: 20px;
+}
+.cont_texto_que_banda {
+    width: 500px;
+    margin-left: 15px;
+}
+.cont_texto_que_banda h3 {
+    font-size: 30px;
+    color: red;
+}
+.cont_texto_que_banda p {
+    font-size: 20px;
+    text-align: justify;
+}
+.cont_segunda h1{
+    color: red;
+    text-align: center;
+    font-size: 50px;
+}
+.Cont_joaquin_musico{
+    display: flex;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+.cont_img_joaquin {
+    width: 450px;
+    border-radius: 20px;
+    background: -webkit-linear-gradient(90deg, rgb(244, 255, 0), rgb(231, 231, 82));
+    background: linear-gradient(90deg, rgb(244, 255, 0), rgb(231, 231, 82));
+    display: flex;
+    justify-content: center;
+    margin-left: 15px;
+}
+.img_joaquin {
+    width: 430px;
+    border-radius: 20px;
+}
+.cont_texto_joaquin{
+    width: 500px;
+    margin-left: 15px;
+}
+.cont_texto_joaquin h3 {
+    font-size: 30px;
+    color: red;
+}
+.cont_texto_joaquin p {
+    font-size: 20px;
+    text-align: justify;
+}
+
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    background: yellow;
+    margin-top: 20px;
+}
+.cont_pie_localizacion{
+    width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.cont_loca_info{
+    width: 250px;
+    height: auto;
+    font-size: 23px;
+    display: flex;
+    justify-content: center;
+}
+.cont_info_loca{
+    margin-left: 10px;
+    color: red;
+}
+.cont_img_lugar{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+.img_lugar{
+    width: 350px;
+    border-radius: 30px;
+}
+
+.cont_pie_redes{
+    width: 300px;
+}
+.cont_texto_redes{
+    font-size: 30px;
+    color: red;
+}
+.face{
+    width: 20%;
+}
+.what{
+    width: 20%;
+}
+.you{
+    width: 26%;
+}

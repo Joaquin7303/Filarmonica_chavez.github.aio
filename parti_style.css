@@ -1,0 +1,166 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: -webkit-linear-gradient(90deg, rgb(255, 250, 140), rgb(255, 255, 214));
+    background: linear-gradient(90deg, rgb(255, 250, 140), rgb(255, 255, 214));
+}
+header{
+    width: 100%;
+    height: auto;
+    position: fixed;
+    background: -webkit-radial-gradient(rgb(250, 208, 90), rgb(255, 244, 0));
+    background: radial-gradient(rgb(250, 208, 90), rgb(255, 244, 0));
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+.contenedor_head{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.cont_img_logo{
+    width: max-content;
+}
+.img_logo{
+    width: 200px;
+    height: 70px;
+    margin-left: 50px;
+}
+.cont_menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.cont_barra_navegar{
+    width: 105px;
+    height: 40px;
+    margin-left: 17.5px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(255, 255, 35);
+    border-radius: 10px;
+}
+.cont_barra_navegar a{
+    text-decoration: none;
+    font-size: 17px;
+    color: red;
+}
+.cont_barra_navegar:hover {
+    background: rgb(255, 208, 0);
+}
+/* sub navegación */
+.contenedor_seb_secciones{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background: red;
+}
+.cont_sub_section{
+    width: calc(100ch / 5);
+    height: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    background: red;
+}
+.acolor {
+    display: block;
+    text-decoration: none;
+    color: rgb(243, 243, 65);
+    font-size: 3vh;
+}
+.cont_sub_section:hover{
+    background: -webkit-linear-gradient(-35deg, rgb(246, 201, 167), rgb(246, 173, 6));
+    background: linear-gradient(-35deg, rgb(246, 201, 167), rgb(246, 173, 6));
+}
+.cont_sub_section a :hover{
+    color: red;
+}
+.acolor:hover{
+    color: red;
+}
+/* partituras */
+.contenedor_partituras{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 15%;
+}
+.cont_partituras{
+    display: flex;
+    flex-direction: column;
+    background: rgba(237, 237, 80, 0.205);
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.img_par1{
+    border-radius: 20px;
+    width: 270px;
+    height: 350px;
+}
+.cont_dato_part{
+    margin-left: 5px;
+    color: rgb(222, 7, 7);
+    display: inline-block;
+}
+.cont_dato_part p {
+    font-size: 17px;
+}
+/* pie de pagina */
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    background: yellow;
+    margin-top: 20px;
+}
+.cont_pie_localizacion{
+    width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.cont_loca_info{
+    width: 250px;
+    height: auto;
+    font-size: 23px;
+    display: flex;
+    justify-content: center;
+}
+.cont_info_loca{
+    margin-left: 10px;
+    color: red;
+}
+.cont_img_lugar{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+.img_lugar{
+    width: 350px;
+    border-radius: 30px;
+}
+.cont_pie_redes{
+    width: 300px;
+}
+.cont_texto_redes{
+    font-size: 30px;
+    color: red;
+}
+.face{
+    width: 20%;
+}
+.what{
+    width: 20%;
+}
+.you{
+    width: 26%;
+}
